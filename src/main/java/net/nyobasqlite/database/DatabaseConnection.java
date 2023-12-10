@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
     static {
         HikariConfig config = new HikariConfig();
-        config.setJdbcUrl("jdbc:sqlite:src/main/java/net/nyobasqlite/database/userdb.db");
+        config.setJdbcUrl("jdbc:sqlite:src/main/resources/_database/userdb.db");
 
         // config of pool
         config.setMaximumPoolSize(10);
